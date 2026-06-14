@@ -183,6 +183,33 @@ Database schema
 * Productivity scoring
 * Team performance insights
 
+## Screenshots
+
+### System Architecture
+
+![System Architecture](docs/architecture.png)
+
+### Admin Dashboard
+
+![Admin Dashboard](docs/admin_dashboard.png)
+
+### Task Management
+
+![Task Management](docs/admin_task_management.png)
+
+### Meeting Summary & Action Items
+
+![Meeting Summary & Action Items](docs/summary.png)
+
+### Decision Detection
+
+![Decision Detection](docs/decision.png)
+
+### Topic Clustering & Risk Analysis
+
+![Topic Clustering & Risk Analysis](docs/risks_and_topic_cluster.png)
+
+
 ---
 
 ## Author
