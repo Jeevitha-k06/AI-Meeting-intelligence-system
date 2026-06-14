@@ -32,10 +32,6 @@ Detects important decisions made during meetings and presents them separately fo
 
 Groups related discussion points into meaningful topic clusters to help users understand major themes discussed during the meeting.
 
-### Sentiment Analysis
-
-Analyses the overall sentiment of meeting discussions and provides insights into participant tone and engagement.
-
 ### Risk Analysis
 
 Identifies potential risks, blockers, concerns, and project issues mentioned during meetings.
@@ -83,9 +79,6 @@ TF-IDF vectorisation extracts important terms from discussions.
 
 HDBSCAN clustering groups semantically related discussions into topic clusters without requiring a predefined number of clusters.
 
-### 4. Sentiment Analysis
-
-Meeting content is analysed to determine overall emotional tone and engagement levels.
 
 ### 5. Risk Detection
 
@@ -117,7 +110,6 @@ Machine Learning Pipeline
 
 ├── Topic Clustering (TF-IDF + HDBSCAN)
 
-├── Sentiment Analysis
 
 └── Risk Analysis
 
