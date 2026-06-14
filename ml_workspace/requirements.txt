@@ -1,0 +1,13 @@
+# SyncSpace AI — ml_workspace dependencies
+nltk>=3.8
+spacy>=3.7
+scikit-learn>=1.3
+networkx>=3.0
+numpy>=1.24
+sentence-transformers>=2.2.2
+umap-learn>=0.5.5
+hdbscan>=0.8.33
+yake>=0.4.8
+
+# spaCy English model (install separately):
+# python -m spacy download en_core_web_sm

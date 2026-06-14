@@ -1,0 +1,9 @@
+The team discussed the API versioning strategy today.
+
+Meera will complete the user profile service by Monday.
+
+Arjun will work on the Vue.js frontend tomorrow.
+
+The team finalized Django REST Framework for backend APIs.
+
+The cloud migration discussion was postponed until next quarter.
