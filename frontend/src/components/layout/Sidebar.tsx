@@ -64,7 +64,7 @@ export default function Sidebar() {
                 transition={{ duration: 0.2 }}
                 className="font-bold text-white text-base tracking-tight overflow-hidden whitespace-nowrap"
               >
-                Insight
+                SyncSpace
               </motion.span>
             )}
           </AnimatePresence>

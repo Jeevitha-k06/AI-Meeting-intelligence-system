@@ -22,7 +22,7 @@ export default function AppLayout() {
       ? "/meetings"
       : location.pathname;
 
-  const meta = pageTitles[pathKey] ?? { title: "Insight", subtitle: "" };
+  const meta = pageTitles[pathKey] ?? { title: "SyncSpace", subtitle: "" };
 
   return (
     <div className="flex h-screen bg-[#000008] overflow-hidden">

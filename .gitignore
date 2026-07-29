@@ -1,91 +1,63 @@
-# Environments
-.env
-.env.*
-!.env.example
-.venv
-env/
-venv/
-ENV/
-env.bak/
-venv.bak/
-
-# IDE / Editor
-.vscode/*
-.vscode/
-!.vscode/settings.json
-!.vscode/tasks.json
-!.vscode/launch.json
-!.vscode/extensions.json
-.idea/
-*.suo
-*.ntvs*
-*.njsproj
-*.sln
-*.sw?
-.DS_Store
-Thumbs.db
-
-# Python
+# ─── Python / Backend ─────────────────────────────────────────────────────────
 __pycache__/
 *.py[cod]
-*$py.class
+*.pyo
+*.pyd
 *.so
-.Python
-build/
-develop-eggs/
-dist/
-downloads/
-eggs/
-.eggs/
-lib/
-lib64/
-parts/
-sdist/
-var/
-wheels/
-share/python-wheels/
-*.egg-info/
-.installed.cfg
 *.egg
-MANIFEST
-
-# Pytest / Coverage
-.coverage
-.coverage.*
-.cache
-nosetests.xml
-coverage.xml
-*.cover
-*.py,cover
-.hypothesis/
+*.egg-info/
+dist/
+build/
+.eggs/
+.mypy_cache/
+.ruff_cache/
 .pytest_cache/
-cover/
+.coverage
+htmlcov/
 
-# Node / Frontend
-node_modules/
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-pnpm-debug.log*
-lerna-debug.log*
-dist-ssr/
+# Virtual environment
+.venv/
+venv/
+env/
+ENV/
 
-# ML / Data / Models
-*.h5
-*.hdf5
-*.pt
-*.pth
-*.pkl
-*.joblib
-*.model
-models/
-checkpoints/
+# ─── Environment / Secrets ────────────────────────────────────────────────────
+# Never commit real secrets
+backend/.env
+frontend/.env
 
-# Jupyter Notebook
-.ipynb_checkpoints
+# Keep the example files
+!backend/.env.example
 
-# Project specific
-backend/uploads/
+# ─── ML Workspace ─────────────────────────────────────────────────────────────
+ml_workspace/__pycache__/
 ml_workspace/output/
-logs/
+# NLTK data downloaded at runtime
+nltk_data/
+
+# HuggingFace / SentenceTransformers model cache
+.cache/
+~/.cache/huggingface/
+
+# ─── Frontend / Node ──────────────────────────────────────────────────────────
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+frontend/coverage/
+
+# ─── Uploads (runtime files, not source) ──────────────────────────────────────
+backend/uploads/*
+!backend/uploads/.gitkeep
+
+# ─── Editor / OS ──────────────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ─── Logs ─────────────────────────────────────────────────────────────────────
 *.log
+logs/

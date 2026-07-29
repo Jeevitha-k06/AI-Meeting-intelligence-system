@@ -160,7 +160,7 @@ export default function UploadPage() {
       <div className="mb-6">
         <h2 className="text-xl font-bold text-white">Upload Meeting</h2>
         <p className="text-sm text-white/40 mt-0.5">
-          Upload a transcript and Insight will extract the intelligence
+          Upload a transcript and SyncSpace will extract the intelligence
         </p>
       </div>
 

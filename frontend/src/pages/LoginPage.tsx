@@ -83,8 +83,8 @@ export default function LoginPage() {
           <div className="w-12 h-12 rounded-2xl bg-gradient-to-br from-[#0F74C5] to-[#56B2EF] flex items-center justify-center mb-4 shadow-lg shadow-[#0F74C5]/20">
             <Sparkles size={20} className="text-white" />
           </div>
-          <h1 className="text-2xl font-bold text-white">Insight</h1>
-          <p className="text-sm text-white/40 mt-1">hours of mess into insights</p>
+          <h1 className="text-2xl font-bold text-white">SyncSpace</h1>
+          <p className="text-sm text-white/40 mt-1">Turn Every Meeting into Actionable Intelligence</p>
         </div>
 
         {/* Card */}
